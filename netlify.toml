@@ -8,15 +8,6 @@
 [context.production]
   command = "npm run build"
 
-[context.deploy-preview]
-  command = "npm run build -- -b $DEPLOY_PRIME_URL"
-
-[context.branch-deploy]
-  command = "npm run build -- -b $DEPLOY_PRIME_URL"
-
-[context.next]
-  command = "npm run build"
-
 [dev]
   framework = "#custom"
   command = "npm run start"

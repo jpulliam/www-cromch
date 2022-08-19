@@ -18,9 +18,6 @@
 [context.next]
   command = "npm run build"
 
-[context.next.environment]
-  HUGO_ENV = "next"
-
 [dev]
   framework = "#custom"
   command = "npm run start"

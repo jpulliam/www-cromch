@@ -61,3 +61,8 @@ seo:
 
 <!--more-->
 ![NGC 7000](NGC_7000.jpg "North America Nebula - NGC 7000")
+
+This image was taken from my backyard in the suburbs of Dallas Texas.
+
+Camera: Nikon D7500
+Telescope: William Optics Zenithstar 61II APO

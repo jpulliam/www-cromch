@@ -1,30 +1,20 @@
 {
   "scripts": {
-    "init": "shx rm -rf .git && git init -b main",
-    "create": "exec-bin node_modules/.bin/hugo/hugo new",
     "prestart": "npm run clean",
     "start": "exec-bin node_modules/.bin/hugo/hugo server  --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost",
-    "start:lan": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --baseURL=http://192.168.1.10 --port=1313",
     "prebuild": "npm run clean",
     "build": "exec-bin node_modules/.bin/hugo/hugo --gc --minify",
-    "build:lan": "exec-bin node_modules/.bin/hugo/hugo --gc --minify --baseURL=http://192.168.1.10:8080",
-    "build:preview": "npm run build -D -F",
     "clean": "shx rm -rf public resources",
     "clean:install": "shx rm -rf package-lock.json node_modules ",
     "lint": "npm run -s lint:markdown",
     "lint:markdown": "markdownlint-cli2 \"*.md\" \"content/**/*.md\"",
-    "lint:markdown-fix": "markdownlint-cli2-fix \"*.md\" \"content/**/*.md\"",
-    "server": "exec-bin node_modules/.bin/hugo/hugo server",
-    "test": "npm run -s lint",
-    "env": "env",
-    "precheck": "npm version",
-    "check": "exec-bin node_modules/.bin/hugo/hugo version",
-    "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo"
+    "lint:markdown-fix": "markdownlint-cli2-fix \"*.md\" \"content/**/*.md\""
   },
   "devDependencies": {
     "exec-bin": "^1.0.0",
     "hugo-installer": "^3.1",
     "markdownlint-cli2": "^0.4.0",
+    "netlify-plugin-submit-sitemap": "^0.4.0",
     "shx": "^0.3"
   },
   "otherDependencies": {

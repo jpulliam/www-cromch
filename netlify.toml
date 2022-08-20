@@ -1,6 +1,19 @@
 [build]
   publish = "public"
 
+[[plugins]]
+  package = "netlify-plugin-submit-sitemap"
+
+    [plugins.inputs]
+
+    baseUrl = "https://cromch.com"
+    sitemapPath = "/sitemap.xml"
+    ignorePeriod = 0
+    providers = [
+      "google",
+      "yahoo"
+    ]
+
 [build.environment]
   NODE_VERSION = "16.16.0"
   NPM_VERSION = "8.11.0"

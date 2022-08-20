@@ -1,6 +1,8 @@
 TODO:
 
-[ ] Cleanup NPM requirements and build scripts
+[ ] Create favicon
+
+[ ] update avatar
 
 [ ] rename master branch to main
 

@@ -1,20 +1,20 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
+title: "North America Nebula"
 subtitle: ""
-date: {{ .Date }}
-lastmod: {{ .Date }}
-draft: true
-author: ""
+date: 2022-08-19T23:27:50-05:00
+lastmod: 2022-08-19T23:27:50-05:00
+draft: false
+author: "Jake Pulliam"
 authorLink: ""
 description: ""
 license: ""
 images: []
 
-tags: []
-categories: []
+tags: ["nebula"]
+categories: ["Astrophotography"]
 
 featuredImage: ""
-featuredImagePreview: ""
+featuredImagePreview: "NGC_7000.jpg"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
@@ -60,3 +60,4 @@ seo:
 ---
 
 <!--more-->
+![NGC 7000](NGC_7000.jpg "North America Nebula - NGC 7000")

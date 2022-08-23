@@ -1,5 +1,5 @@
 ---
-title: "Index"
+title: "Photo Test - Scooby the Cat"
 subtitle: ""
 date: 2022-08-22T19:02:42-05:00
 lastmod: 2022-08-22T19:02:42-05:00

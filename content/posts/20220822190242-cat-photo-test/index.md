@@ -10,8 +10,8 @@ description: "Testing Darktable + GIMP + G'MIC for Photoprocessing"
 license: "MIT"
 images: []
 
-tags: []
-categories: []
+tags: [Cat]
+categories: [Photography, Linux]
 
 featuredImage: ""
 featuredImagePreview: ""

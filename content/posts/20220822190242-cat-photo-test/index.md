@@ -62,3 +62,5 @@ seo:
 <!--more-->
 ![Scooby](AST_4882.png "Scooby the Cat - Photo Test")
 
+Testing the combination of Darktable for RAW conversion and G'MIC (run from GIMP) for film effects. Looking for a tool chain that runs well under Linux so I can ditch Windows for photo processing.
+

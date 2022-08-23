@@ -60,5 +60,5 @@ seo:
 ---
 
 <!--more-->
-![Scooby](AST_4882.jpg "Scooby the Cat - Photo Test")
+![Scooby](AST_4882.png "Scooby the Cat - Photo Test")
 

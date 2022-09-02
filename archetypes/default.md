@@ -7,7 +7,7 @@ draft: true
 author: ""
 authorLink: ""
 description: ""
-license: ""
+license: "CC BY-SA 4.0"
 images: []
 
 tags: []
